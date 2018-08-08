@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P3-DepressionTest-NormaCMartinez</string>
+    <string name="depression_test" translatable="false">"Test de Depresión  "</string>
+    <string name="_1_are_you_basically_satisfied_with_your_life">"1. ¿ En general, está satisfecho/a con su vida? "</string>
+    <string name="_2_have_you_dropped_many_of_your_activities_and_interests">"2. ¿Ha abandonado muchas de sus tareas habituales y aficiones? "</string>
+    <string name="_3_do_you_feel_that_your_life_is_empty">"3. ¿ Siente que su vida está vacía? "</string>
+    <string name="_4_do_you_often_get_bored">"4. ¿Se siente con frecuencia aburrido/a? "</string>
+    <string name="_5_are_you_in_good_spirits_most_of_the_time">"5. ¿Se encuentra de buen humor la mayor parte del tiempo? "</string>
+    <string name="_6_are_you_afraid_that_something_bad_is_going_to_happen_to_you">"6. ¿Teme que algo malo pueda ocurrirle? "</string>
+    <string name="_7_do_you_feel_happy_most_of_the_time">"7. ¿Se siente feliz la mayor parte del tiempo? "</string>
+    <string name="_8_do_you_often_feel_helpless">"8. ¿Con frecuencia se siente desamparado/a, desprotegido/a? "</string>
+    <string name="_9_do_you_prefer_to_stay_at_home_rather_than_going_out_and_doing_new_things">"9. ¿Prefiere usted quedarse en casa, más que salir y hacer cosas nuevas? "</string>
+    <string name="_10_do_you_feel_you_have_more_problems_with_memory_than_most">"10. ¿Cree que tiene más problemas de memoria que la mayoría de la gente? "</string>
+    <string name="_11_do_you_think_it_is_wonderful_to_be_alive_now">"11. ¿En estos momentos, piensa que es estupendo estar vivo?  "</string>
+    <string name="_12_do_you_feel_pretty_worthless_the_way_you_are_now">"12. ¿Actualmente se siente un/a inútil? "</string>
+    <string name="_13_do_you_feel_full_of_energy">"13. ¿ Se siente lleno/a  de energía? "</string>
+    <string name="_14_do_you_feel_that_your_situation_is_hopeless">14. ¿Se siente sin esperanza en este momento?</string>
+    <string name="_15_do_you_think_that_most_people_are_better_off_than_you_are">15. ¿Piensa que la mayoría de la gente está en mejor situación que usted?</string>
+    <string name="name">Nombre:</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="score">Puntaje</string>
+    <string name="your_score">Sus Resultados</string>
+    <string name="a_score_5_points_is_suggestive_of_depression">• Un puntaje mayor a 5 puntos es sugestivo de depresión.</string>
+    <string name="a_score_10_points_is_almost_always_indicative_of_depression">• Un puntaje mayor o igual a 10 puntos es casi siempre indicativo de depresión.</string>
+    <string name="your_score_points_thank_you">{0}: Su puntaje {1} puntos, gracias!</string>
+    <string name="thyroid_diseases">Tiroides</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="high_blood_pressure">Presión Alta</string>
+    <string name="alcoholism">Alcoholismo</string>
+    <string name="rheumatoid_arthritis">Artritis Reumatoidea</string>
+    <string name="drug_addiction">Drogadicción</string>
+    <string name="have_you_ever_suffered_any_of_these_diseases_if_so_please_check_the_corresponding_box">Sufre de alguna de las siguientes enfermedades? Si si, por favor marque la casilla correspondiente.</string>
+    <string name="your_score_is">": Su resultado es  "</string>
+    <string name="points_is_normal">"  puntos es normal"</string>
+    <string name="points_greater_than_5_indicates_probably_depression">" puntos, más de 5 puntos indica una probable depresión."</string>
+    <string name="you_have">" Usted tiene:  "</string>
+    <string name="diseases_physical_illness_increases_the_risk_of_developing_depressive_illness">"  enfermedad(es), enfermedades físicas incrementan el riesgo de desarrollar depresión."</string>
+
+
+</resources>

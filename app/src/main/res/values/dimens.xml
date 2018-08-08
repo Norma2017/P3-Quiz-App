@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rbmt">16dp</dimen>
+    <dimen name="tvlw">220dp</dimen>
+    <dimen name="tvmt">16dp</dimen>
+    <dimen name="tvml">10dp</dimen>
+    <dimen name="rbpr4">4dp</dimen>
+    <dimen name="twdeprestst">20sp</dimen>
+    <dimen name="btnmb">8dp</dimen>
+    <dimen name="btnmt">16dp</dimen>
+    <dimen name="btnw45">45dp</dimen>
+    <dimen name="btnh45">45dp</dimen>
+    <dimen name="btnw">160dp</dimen>
+    <dimen name="btnh">50dp</dimen>
+    <dimen name="tv3mt">8dp</dimen>
+    <dimen name="tvmr">8dp</dimen>
+</resources>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidgarden"
+    tools:context="com.example.android.p3_depressiontest_normacmartinez.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:inputType="textCapWords"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/depression_test"
+                android:textColor="@color/Blck"
+                android:textSize="@dimen/twdeprestst"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/CustomTextViewStyle2"
+                android:layout_marginTop="8dp"
+                android:text="@string/have_you_ever_suffered_any_of_these_diseases_if_so_please_check_the_corresponding_box" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/CheckBox_Thiroide"
+                    style="@style/CustomCheckBox"
+                    android:layout_marginTop="@dimen/tv3mt"
+                    android:layout_marginLeft="@dimen/tvml"
+                    android:text="@string/thyroid_diseases"
+                    tools:ignore="RtlHardcoded" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox_Diabetes"
+                    style="@style/CustomCheckBox"
+                    android:layout_marginTop="@dimen/tv3mt"
+                    android:text="@string/diabetes" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/CheckBox_Hbp"
+                    style="@style/CustomCheckBox"
+                    android:layout_marginLeft="@dimen/tvml"
+                    android:text="@string/high_blood_pressure"
+                    tools:ignore="RtlHardcoded" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox_Alcoholism"
+                    style="@style/CustomCheckBox"
+                    android:text="@string/alcoholism" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/CheckBox_Rheumatoid"
+                    style="@style/CustomCheckBox"
+                    android:layout_marginLeft="@dimen/tvml"
+                    android:text="@string/rheumatoid_arthritis"
+                    tools:ignore="RtlHardcoded" />
+
+                <CheckBox
+                    android:id="@+id/CheckBox_DrugAddiction"
+                    style="@style/CustomCheckBox"
+                    android:text="@string/drug_addiction" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_1_are_you_basically_satisfied_with_your_life" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button1s"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button1n_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_2_have_you_dropped_many_of_your_activities_and_interests" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button2s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button2n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_3_do_you_feel_that_your_life_is_empty" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button3s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button3n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_4_do_you_often_get_bored" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button4s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button4n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_5_are_you_in_good_spirits_most_of_the_time" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button5s"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button5n_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_6_are_you_afraid_that_something_bad_is_going_to_happen_to_you" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button6s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button6n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_7_do_you_feel_happy_most_of_the_time" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button7s"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button7n_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_8_do_you_often_feel_helpless" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button8s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button8n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_9_do_you_prefer_to_stay_at_home_rather_than_going_out_and_doing_new_things" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button9s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button9n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_10_do_you_feel_you_have_more_problems_with_memory_than_most" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button10s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button10n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_11_do_you_think_it_is_wonderful_to_be_alive_now" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button11s"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes"
+                        tools:ignore="TooManyViews" />
+
+                    <RadioButton
+                        android:id="@+id/button11n_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_12_do_you_feel_pretty_worthless_the_way_you_are_now" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button12s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button12n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_13_do_you_feel_full_of_energy"
+                        tools:ignore="TooManyViews" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button13s"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button13n_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_14_do_you_feel_that_your_situation_is_hopeless" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button14s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button14n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/CustomTextViewStyle"
+                        android:text="@string/_15_do_you_think_that_most_people_are_better_off_than_you_are" />
+
+                </LinearLayout>
+
+                <RadioGroup style="@style/CustomRadioGroupStyle">
+
+                    <RadioButton
+                        android:id="@+id/button15s_CheckBox"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        android:id="@+id/button15n"
+                        style="@style/CustomButtonStyle"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="@dimen/btnw"
+                android:layout_height="@dimen/btnh"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/btnmb"
+                android:layout_marginTop="@dimen/btnmt"
+                android:background="@drawable/androidorangebtn"
+                android:onClick="score"
+                android:text="@string/score"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnHappy"
+                android:layout_width="@dimen/btnw45"
+                android:layout_height="@dimen/btnh45"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/btnmb"
+                android:background="@drawable/androidbuttonhappy"
+                android:onClick="bird" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
